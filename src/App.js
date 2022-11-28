@@ -52,7 +52,7 @@ function App() {
             onChange={(event) => setSelectedBreed(event.target.value)}
           >
             <option value="" disabled>
-              Select a breed
+              Select a breed 
             </option>
             {breeds.map((breed) => (
               <option key={breed} value={breed}>
